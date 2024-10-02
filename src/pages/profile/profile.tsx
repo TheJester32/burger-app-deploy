@@ -112,7 +112,7 @@ function Profile() {
             <a href="/profile">Профиль</a>
           </li>
           <li className="text text_type_main-large p-2">
-            <a href="/profile/orders">История заказов</a>
+            <a href="https://thejester32.github.io/burger-app-deploy/#/profile/orders">История заказов</a>
           </li>
           <li className="text text_type_main-large p-2">
             <p onClick={handleLogout}>Выход</p>
