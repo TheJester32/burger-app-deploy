@@ -1,0 +1,115 @@
+.ingredients__main_list {
+    padding-left: 0;
+    height: calc(70vh - 20rem);
+    scrollbar-width: thin;
+    overflow-y: auto;
+    margin: 0;
+}
+
+.ingredients__default_list {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1.5rem;
+}
+
+.ingredients__default_list li {
+    display: flex;
+    align-items: center;
+    width: 550px;
+}
+
+.ingredients__main_list li {
+    display: flex;
+    align-items: center;
+}
+
+.ingredients__main_list_inner_wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 530px;
+    justify-content: space-between;
+    background-color: rgba(28, 28, 33, 1);
+    margin-left: 0.5rem;
+    border: 1px solid rgba(28, 28, 33, 1);
+}
+
+.ingredients__default_bun_inner {
+    border-radius: 50px;
+}
+
+.ingredients__default_bun_inner:hover{
+    cursor: grab;
+    border: 1px solid rgba(76, 76, 255, 1);
+}
+
+.ingredients__main_list_inner__secondary_wrapper {
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+    padding-left: 1rem;
+
+}
+
+.ingredients__main_list_price_wrapper {
+    display: flex;
+    margin-right: 0.5rem;
+}
+
+.ingredients__name {
+    width: 254px;
+}
+
+.ingredients__main_list_price {
+    margin-right: 0.5rem;
+}
+
+.ingredients__final_price_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ingredients__final_price_wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.ingredients__final_price_digit {
+    margin-right: 0.5rem;
+}
+
+.ingredients__upper_bun {
+    margin-top: 2.5rem;
+}
+
+.ingredients__lower_bun {
+    margin-bottom: 2.5rem;
+}
+
+.ingredients__upper_bun_inner {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.ingredients__lower_bun_inner {
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.empty_constructor_text{
+    background-color: #131316;
+    width: fit-content;
+    color: #2ffdc8;
+    text-align: center;
+    padding-left: auto;
+    margin-left: auto;
+    margin-right: 3rem;
+}

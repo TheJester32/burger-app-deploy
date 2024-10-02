@@ -1,0 +1,26 @@
+.constructor__modal_wrapper{
+    width: 710px;
+    height: 529px;
+    padding: 10px;
+}
+
+.constructor__modal_inner{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.constructor__modal_inner_description_wrapper{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.constructor__modal_inner_description_wrapper div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

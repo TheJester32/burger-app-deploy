@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vh;
+  }
+  
+  .form {
+    padding: 40px;
+    width: 480px;
+    text-align: center;
+  }
+  
+  .heading {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    margin-bottom: 20px;
+    background-color: #2e2e2e;
+    border-radius: 50px;
+  }
+  
+  .loginText {
+    margin-top: 1rem;
+  }
+  
+  .loginLink {
+    color: #4c9aff;
+    text-decoration: none;
+  }
+
+  .errorText{
+    margin-bottom: 1rem;
+    color: #DF2030;
+  }
