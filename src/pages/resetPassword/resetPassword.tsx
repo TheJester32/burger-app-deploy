@@ -72,7 +72,7 @@ function ResetPassword() {
           {isLoading ? 'Загрузка...' : 'Сохранить'}
         </Button>
         <p className={`text text_type_main-small text_color_inactive ${formStyles.loginText}`}>
-          Вспомнили пароль? <a href="/login" className={formStyles.loginLink}>Войти</a>
+          Вспомнили пароль? <a href="https://thejester32.github.io/burger-app-deploy/#/login" className={formStyles.loginLink}>Войти</a>
         </p>
       </form>
     </div>

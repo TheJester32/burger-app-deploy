@@ -49,7 +49,7 @@ function Header({ isAuthentficated }: HeaderProps) {
                     </div>
                 </div>
                 <div className={headerStyles.header__logo_wrapper}>
-                    <a href='/'>
+                    <a href='https://thejester32.github.io/burger-app-deploy/'>
                     <Logo />
                     </a>
                 </div>
